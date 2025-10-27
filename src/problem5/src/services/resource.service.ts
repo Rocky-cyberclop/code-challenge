@@ -1,5 +1,5 @@
-import { connectDB } from "../database";
-import { Resource } from "../models/resource.model";
+import { connectDB } from "@/database";
+import { Resource } from "@/models/resource.model";
 
 export async function createTable() {
   const db = await connectDB();

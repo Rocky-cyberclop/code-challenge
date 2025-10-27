@@ -1,4 +1,5 @@
-import * as service from "../services/resource.service";
+import { Request, Response } from "express";
+import * as service from "@/services/resource.service";
 
 export const init = async () => await service.createTable();
 
